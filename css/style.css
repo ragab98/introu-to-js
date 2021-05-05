@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 80%;
+    margin: auto;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    border-bottom: 4px solid #66dbeef0;
+}
+.btns button{
+    width: 20%;
+    height: 45px;
+    border: 2px solid #ccc;
+    border-bottom: none;
+    outline: none;
+    border-radius: 15px 15px 0 0;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #ccc;
+    cursor: pointer;
+}
+.btns button:hover{
+    background-color: #66dbeef0;
+    color: white;
+    border: none;
+}
+.courses{
+    border: 2px solid #ccc;
+    border-top: none;
+    padding: 4% 2%;
+    
+}
+.courses h1{
+    font-size: 50px;
+    letter-spacing: 4px;
+    color: #7fa6ff;
+}
+.courses .container{
+
+    display: none;
+}
+h2{
+    font-size: 35px;
+    letter-spacing: 3px;
+    color: rgb(109, 103, 103);
+}
+p{
+    font-size: 20px;
+    color: rgb(172, 166, 166);
+    padding-right: 20%;
+}
