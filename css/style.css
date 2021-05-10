@@ -21,8 +21,8 @@ body{
     border-bottom: none;
     outline: none;
     border-radius: 15px 15px 0 0;
-    font-size: 30px;
-    letter-spacing: 3px;
+    font-size: 27px;
+    letter-spacing: 2px;
     color: #ccc;
     cursor: pointer;
 }
@@ -30,6 +30,7 @@ body{
     background-color: #66dbeef0;
     color: white;
     border: none;
+    transition: all 1s;
 }
 .courses{
     border: 2px solid #ccc;
@@ -55,4 +56,35 @@ p{
     font-size: 20px;
     color: rgb(172, 166, 166);
     padding-right: 20%;
+}
+
+
+
+
+
+/*
+media query
+*/
+
+@media screen and (max-width:820px){
+
+    .btns button{
+        width: 25%;
+        height: 40px;
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .courses .container{
+
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    p{
+        padding-right: 5%;
+
+    }
+
+
 }
