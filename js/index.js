@@ -16,6 +16,7 @@ myH1 = document.getElementById('header');
     bsDiv.style.display = 'none'
     jsDiv.style.display = 'none'
     myH1.style.display = 'none'
+    
 };
 
 htmlBtn.onclick = function(){
