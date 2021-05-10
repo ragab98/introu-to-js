@@ -10,37 +10,36 @@ bsDiv = document.getElementById('bootstrap'),
 jsDiv = document.getElementById('js'),
 myH1 = document.getElementById('header');
 
-htmlBtn.onclick = function show(){
-    htmlDiv.style.display = 'flex'
+ function show(){
+    htmlDiv.style.display = 'none'
     cssDiv.style.display = 'none'
     bsDiv.style.display = 'none'
     jsDiv.style.display = 'none'
     myH1.style.display = 'none'
 };
 
+htmlBtn.onclick = function(){
+    show()
+    htmlDiv.style.display = 'flex'
+}
+
 cssBtn.onclick = function(){
-    htmlDiv.style.display = 'none'
+    
+    show()
     cssDiv.style.display = 'flex'
-    bsDiv.style.display = 'none'
-    jsDiv.style.display = 'none'
-    myH1.style.display = 'none'
 
 };
 
 bsBtn.onclick = function(){
-    htmlDiv.style.display = 'none'
-    cssDiv.style.display = 'none'
+
+    show()
     bsDiv.style.display = 'flex'
-    jsDiv.style.display = 'none'
-    myH1.style.display = 'none'
 
 };
 
 jsBtn.onclick = function(){
-    htmlDiv.style.display = 'none'
-    cssDiv.style.display = 'none'
-    bsDiv.style.display = 'none'
+
+    show()
     jsDiv.style.display = 'flex'
-    myH1.style.display = 'none'
 
 };
